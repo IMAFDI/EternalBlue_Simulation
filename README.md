@@ -56,6 +56,20 @@ The project is organized into the following components:
      - Simulate the exploit if the system is vulnerable.
      - Simulate payload delivery to the target system.
 
+**Output can be similer to this if the program runs sucessfully:**
+
+```bash
+  Enter target IP address: 192.168.42.69
+  Host 192.168.42.69 is running SMBv1 and is potentially vulnerable.
+  System is patched with MS17-010, exploit attempt blocked.
+  Firewall is blocking SMBv1 traffic on port 445.
+  Simulating EternalBlue exploit on 192.168.42.69...
+  Exploit code sent!
+  Simulating payload delivery to 192.168.42.69...
+  Payload delivered!
+  Simulation complete. Remember, this is for educational purposes only!
+```
+
 ## Modules
 
 ### `scanner.py`
