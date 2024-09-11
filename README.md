@@ -19,7 +19,7 @@ The project is organized into the following components:
   - **`exploit_simulator.py`**: Simulates the process of exploiting the SMBv1 vulnerability.
   - **`payload_simulator.py`**: Simulates the delivery of a payload to the target system.
   - **`defense_mechanisms.py`**: Demonstrates how system patches and firewalls prevent exploits.
-- **`docs/`**: Contains educational notes and explanations about the exploit and defenses.
+- **`Learn_docs.md`**: Contains educational notes and explanations about the exploit and defenses.
 
 ## Installation
 
